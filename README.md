@@ -3,6 +3,7 @@
 ----
 A voice announcements speaker that works with the Rhasspy voice control system. Basically, a cheap, small speaker with decent audio quality for voice output, controlled by an ESP32-based board with [ESP32 Rhasspy Satellite](https://github.com/Romkabouter/ESP32-Rhasspy-Satellite) firmware. 
 
+<img src="pictures/2/Basic%20Satellite%208.jpg" width="300px" align="right"/>
 Amazon sells these cheap little speaker pairs called "Amazon Basics PC speakers", which I used for the project. I find their audio quality good enough for the intended voice announcement use case. It consists of one "active" speaker powered by USB, which has a little power amplifier PCB inside, and a second one that is a "passive" speaker driven by the first one. I used the "active" part for this one, and kept the "passive" one for another project.
 
 I bought this from [amazon.de](https://www.amazon.de/dp/B07DDK3W5D) in Germany, it looks like the same speaker is also available from [amazon.com](https://www.amazon.com/dp/B07DDK3W5D) in the US. 
@@ -22,7 +23,7 @@ The [schematics](hardware/Basic-Satellite.pdf) and complete [bill of materials](
 
 Begin by placing all components on the cut-to-size prototype board without soldering and slide it into the speaker enclosure to make sure everything fits nicely.
 
-![](pictures/2/Basic%20Satellite%206.jpg)
+<img src="pictures/2/Basic%20Satellite%206.jpg" width="300px" align="right" />
 
 Finally, connect the leads from the speaker itself, from the LED module in the foot of the speaker, and from the USB cable that came with the speaker to the electronics module.
 
