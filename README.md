@@ -1,7 +1,7 @@
 # Basic Satellite
 ## An Amazon Basics speaker converted to a Rhasspy satellite
 ----
-A voice announcements speaker that works with the Rhasspy voice control system. Basically, a cheap, small speaker with decent audio quality for voice output, controlled by an ESP32-based board with [ESP32 Rhasspy Satellite](https://github.com/Romkabouter/ESP32-Rhasspy-Satellite) firmware. 
+A voice announcements speaker that works with the Rhasspy voice control system. Basically, a cheap, small speaker with decent audio quality for voice output, controlled by an ESP32-based board with [ESP32 Rhasspy Satellite](https://github.com/Romkabouter/ESP32-Rhasspy-Satellite) firmware, or my [fork](https://github.com/requireiot/ESP32-Rhasspy-Satellite) of it. 
 
 <img src="pictures/2/Basic%20Satellite%208.jpg" width="300px" align="right"/>
 Amazon sells these cheap little speaker pairs called "Amazon Basics PC speakers", which I used for the project. I find their audio quality good enough for the intended voice announcement use case. It consists of one "active" speaker powered by USB, which has a little power amplifier PCB inside, and a second one that is a "passive" speaker driven by the first one. I used the "active" part for this one, and kept the "passive" one for another project.
